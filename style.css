@@ -1,0 +1,105 @@
+/* ----------------------------
+            root design 
+-------------------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*---------------------------------
+ Header Section
+  ----------------------------------- */
+.header {
+  background-color: #12a7db;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 103px 0 103px 0;
+}
+.title {
+  color: white;
+  width: 50%;
+  margin: 207px 51px 240px 156px;
+  font-size: 40px;
+  line-height: 50px;
+}
+.btn-sty {
+  background-color: red;
+  padding: 11px 45px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+button a i {
+  margin-left: 20px;
+}
+.header-img {
+  width: 50%;
+  margin: 153px 140px 86px 51px;
+}
+.header img {
+  width: 100%;
+}
+/* -----------------------------
+main section design 
+------------------------------- */
+.container {
+  margin-top: 70px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  justify-items: center;
+}
+.player {
+  width: 330px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img {
+  width: 300px;
+  padding: 16px;
+}
+.player h1,
+p {
+  padding: 0 16px;
+}
+
+/* live description section*/
+.high-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+.live-copa {
+  text-align: center;
+  margin: 224px 69px 217px 182px;
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.15);
+}
+
+.high-area img{
+    width: 567px;
+    height: 427px;
+    margin: 156px 156px 158px 69px;
+}
+
+/* footer design  */
+footer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-logo {
+    grid-column: 3/ span 4;
+}
+.footer-icon{
+    grid-column: 3/ span 5;
+}
+.copy{
+    text-align: center;
+    margin: 20px;
+}
